@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on WHW blog</title>
+    <link>https://mattwang44.github.io/post/</link>
+    <description>Recent content in Posts on WHW blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattwang44.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Use Hugo for the first time</title>
+      <link>https://mattwang44.github.io/2020/06/11/first-met-hugo/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/2020/06/11/first-met-hugo/</guid>
+      <description>Tricks  Embed Google Presentation on Hugo  </description>
+    </item>
+    
+    <item>
+      <title>[Paper] Relational inductive biases, deep learning, and graph networks</title>
+      <link>https://mattwang44.github.io/2020/01/19/single-shot-multibox-detector/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/2020/01/19/single-shot-multibox-detector/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>[Paper] Focal Loss for Dense Object Detection</title>
+      <link>https://mattwang44.github.io/2018/09/20/retinanet/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/2018/09/20/retinanet/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>[Paper] SSD: Single Shot Multibox Detector</title>
+      <link>https://mattwang44.github.io/2018/08/09/single-shot-multibox-detector/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/2018/08/09/single-shot-multibox-detector/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>MTIMESX: MATLAB快速多維矩陣乘積</title>
+      <link>https://mattwang44.github.io/2018/04/20/matlab-mtimesx/</link>
+      <pubDate>Fri, 20 Apr 2018 15:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/2018/04/20/matlab-mtimesx/</guid>
+      <description>在多維矩陣運算當中，雖然用多個 for-loops 處理較為直觀易懂，但其實非常耗時。在我修習台大醫工所的人體動做分析電腦計算方法時，發現了 MATLAB 有MTIMESX這</description>
+    </item>
+    
+    <item>
+      <title>Student Projects</title>
+      <link>https://mattwang44.github.io/2018/02/28/student-projects/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/2018/02/28/student-projects/</guid>
+      <description>Human Motion Analysis Programming MATLAB programs for human motion analysis, including motion tracking, evaluation of body balance, and derivation of joint forces and torques of the lower body, etc. It uses the data derived from a motion capture system and force plates. [GitHub]
+    Web Crawler of USPTO PatFT Database Web crawler with PyQt5 UI for automatically gathering information of issued US patents and batch download in the format of PDF.</description>
+    </item>
+    
+  </channel>
+</rss>
