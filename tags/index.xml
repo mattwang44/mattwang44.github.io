@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Misc</title>
+      <title>misc</title>
       <link>https://mattwang44.github.io/tags/misc/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -44,6 +44,24 @@
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mattwang44.github.io/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MATLAB</title>
+      <link>https://mattwang44.github.io/tags/matlab/</link>
+      <pubDate>Fri, 20 Apr 2018 15:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/tags/matlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>course</title>
+      <link>https://mattwang44.github.io/tags/course/</link>
+      <pubDate>Thu, 15 Mar 2018 15:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/tags/course/</guid>
       <description></description>
     </item>
     

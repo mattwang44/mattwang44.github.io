@@ -10,8 +10,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://mattwang44.github.io/img/home-bg-jeep.jpg">
-    <meta property="twitter:image" content="https://mattwang44.github.io/img/home-bg-jeep.jpg" />
+    <meta property="og:image" content="https://mattwang44.github.io//img/home-bg-jeep.jpg">
+    <meta property="twitter:image" content="https://mattwang44.github.io//img/home-bg-jeep.jpg" />
     
 
     
@@ -21,9 +21,9 @@
     
 
     
-    <meta name="description" content="Wei-Hisang (Matt) Wang">
-    <meta property="og:description" content="Wei-Hisang (Matt) Wang" />
-    <meta property="twitter:description" content="Wei-Hisang (Matt) Wang" />
+    <meta name="description" content=" ">
+    <meta property="og:description" content=" " />
+    <meta property="twitter:description" content=" " />
     
 
     
@@ -68,6 +68,9 @@
     
     
 
+    
+    
+
 </head>
 
 
@@ -94,10 +97,6 @@
                         <a href="/">Home</a>
                     </li>
                     
-                        
-                        <li>
-                            <a href="/categories/slides">slides</a>
-                        </li>
                         
                         <li>
                             <a href="/categories/tech">tech</a>
@@ -165,8 +164,8 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/misc" title="Misc">
-                            Misc
+                        <a class="tag" href="/tags/misc" title="misc">
+                            misc
                         </a>
                         
                     </div>
@@ -208,15 +207,28 @@
                 </header>
                 <nav id="TableOfContents">
   <ul>
-    <li><a href="#tricks">Tricks</a></li>
+    <li><a href="#shortcodes">Shortcodes</a></li>
+    <li><a href="#enable-mathjax">Enable MathJax</a></li>
   </ul>
 </nav>
                 
-                <h1 id="tricks">Tricks</h1>
+                <h1 id="shortcodes">Shortcodes</h1>
 <ul>
-<li><a href="https://ashish.one/gist/add-responsive-google-slides-on-hugo/">Embed Google Presentation on Hugo</a></li>
+<li><a href="https://gohugo.io/content-management/shortcodes/">Hugo native shortcodes</a></li>
+<li><a href="https://ashish.one/gist/add-responsive-google-slides-on-hugo/">Embed Google Presentation</a></li>
+<li><a href="https://github.com/liwenyip/hugo-easy-gallery/"><code>figure</code> &amp; <code>gallery</code></a></li>
 </ul>
+<h1 id="enable-mathjax">Enable MathJax</h1>
+<p>Add following lines into <code>theme/&lt;theme&gt;/layout/partials/head.html</code> or any template that the target page used:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#ff79c6">script</span>
+  <span style="color:#50fa7b">src</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;</span>
+  <span style="color:#50fa7b">type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;text/javascript&#34;</span>
+&gt;&lt;/<span style="color:#ff79c6">script</span>&gt;
 
+&lt;<span style="color:#ff79c6">script</span> <span style="color:#50fa7b">type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;text/x-mathjax-config&#34;</span>&gt;
+  MathJax.Hub.Config({ tex2jax<span style="color:#ff79c6">:</span> {inlineMath<span style="color:#ff79c6">:</span> [[<span style="color:#f1fa8c">&#39;$&#39;</span>,<span style="color:#f1fa8c">&#39;$&#39;</span>]]}  });
+&lt;/<span style="color:#ff79c6">script</span>&gt;
+</code></pre></div>
 
                 
 
@@ -252,9 +264,13 @@
                         
                         
                         
+                        
+                        
                         <a href="/tags/cv" title="cv">
                             cv
                         </a>
+                        
+                        
                         
                         
                         

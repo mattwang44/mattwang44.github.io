@@ -17,7 +17,8 @@
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mattwang44.github.io/2020/06/11/first-met-hugo/</guid>
-      <description>Tricks  Embed Google Presentation on Hugo  </description>
+      <description>Shortcodes  Hugo native shortcodes Embed Google Presentation figure &amp;amp; gallery  Enable MathJax Add following lines into theme/&amp;lt;theme&amp;gt;/layout/partials/head.html or any template that the target page used:
+&amp;lt;script src=&amp;#34;//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;#34; type=&amp;#34;text/javascript&amp;#34; &amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script type=&amp;#34;text/x-mathjax-config&amp;#34;&amp;gt; MathJax.Hub.Config({ tex2jax: {inlineMath: [[&amp;#39;$&amp;#39;,&amp;#39;$&amp;#39;]]} }); &amp;lt;/script&amp;gt; </description>
     </item>
     
     <item>
@@ -48,12 +49,30 @@
     </item>
     
     <item>
+      <title>[Paper] Neural Style Transfer</title>
+      <link>https://mattwang44.github.io/2018/05/24/neural-style-transfer/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/2018/05/24/neural-style-transfer/</guid>
+      <description>1. What&amp;rsquo;s Neural Style Transfer? 大家對 Style Transfer 這個詞可能很陌生，但應該很多人記得 2016 年在 Apple Store 和 Google Play 兩大平台皆奪下年度 App 的Prisma，將照片轉換成畫作的功能大受歡迎，或</description>
+    </item>
+    
+    <item>
       <title>MTIMESX: MATLAB快速多維矩陣乘積</title>
       <link>https://mattwang44.github.io/2018/04/20/matlab-mtimesx/</link>
       <pubDate>Fri, 20 Apr 2018 15:00:00 +0000</pubDate>
       
       <guid>https://mattwang44.github.io/2018/04/20/matlab-mtimesx/</guid>
       <description>在多維矩陣運算當中，雖然用多個 for-loops 處理較為直觀易懂，但其實非常耗時。在我修習台大醫工所的人體動做分析電腦計算方法時，發現了 MATLAB 有MTIMESX這</description>
+    </item>
+    
+    <item>
+      <title>吳恩達 Deep Learning Specialization -- 課程介紹與心得</title>
+      <link>https://mattwang44.github.io/2018/03/15/deep-learning-specialization-coursera/</link>
+      <pubDate>Thu, 15 Mar 2018 15:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/2018/03/15/deep-learning-specialization-coursera/</guid>
+      <description>All photos credit to deeplearning.ai 1. 修課背景 我自己是機械背景，在機械所碩士班一年級期間修習了台大資工林軒田教授開設的機器學習基石和機器學習技法兩門課 (也是從那個時候</description>
     </item>
     
     <item>
@@ -81,7 +100,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mattwang44.github.io/top/about/</guid>
-      <description></description>
+      <description>About I&amp;rsquo;m Wei-Hsiang (Matt) Wang, from Taiwan.
+I&amp;rsquo;m a software engineer at Umbo Computer Vision focusing primarily on the development of realtime human detection pipeline in Python &amp;amp; Node.js. I received both of my B.S. (2016) &amp;amp; M.S. (2018) in Mechanical Engineering from National Taiwan University (NTU). Also a cat slave to a tabby named Mujo &amp;amp; a calico named Muya.</description>
     </item>
     
     <item>

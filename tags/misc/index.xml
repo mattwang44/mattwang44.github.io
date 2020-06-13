@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Misc on WHW blog</title>
+    <title>misc on WHW blog</title>
     <link>https://mattwang44.github.io/tags/misc/</link>
-    <description>Recent content in Misc on WHW blog</description>
+    <description>Recent content in misc on WHW blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
@@ -17,16 +17,8 @@
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mattwang44.github.io/2020/06/11/first-met-hugo/</guid>
-      <description>Tricks  Embed Google Presentation on Hugo  </description>
-    </item>
-    
-    <item>
-      <title>MTIMESX: MATLAB快速多維矩陣乘積</title>
-      <link>https://mattwang44.github.io/2018/04/20/matlab-mtimesx/</link>
-      <pubDate>Fri, 20 Apr 2018 15:00:00 +0000</pubDate>
-      
-      <guid>https://mattwang44.github.io/2018/04/20/matlab-mtimesx/</guid>
-      <description>在多維矩陣運算當中，雖然用多個 for-loops 處理較為直觀易懂，但其實非常耗時。在我修習台大醫工所的人體動做分析電腦計算方法時，發現了 MATLAB 有MTIMESX這</description>
+      <description>Shortcodes  Hugo native shortcodes Embed Google Presentation figure &amp;amp; gallery  Enable MathJax Add following lines into theme/&amp;lt;theme&amp;gt;/layout/partials/head.html or any template that the target page used:
+&amp;lt;script src=&amp;#34;//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;#34; type=&amp;#34;text/javascript&amp;#34; &amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script type=&amp;#34;text/x-mathjax-config&amp;#34;&amp;gt; MathJax.Hub.Config({ tex2jax: {inlineMath: [[&amp;#39;$&amp;#39;,&amp;#39;$&amp;#39;]]} }); &amp;lt;/script&amp;gt; </description>
     </item>
     
     <item>
