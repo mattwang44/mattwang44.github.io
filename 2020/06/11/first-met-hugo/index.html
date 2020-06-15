@@ -219,7 +219,7 @@
 <li><a href="https://github.com/liwenyip/hugo-easy-gallery/"><code>figure</code> &amp; <code>gallery</code></a></li>
 </ul>
 <h1 id="enable-mathjax">Enable MathJax</h1>
-<p>Add following lines into <code>theme/&lt;theme&gt;/layout/partials/head.html</code> or any template that the target page used:</p>
+<p>Add following lines into <code>theme/&lt;theme&gt;/layout/partials/math.html</code></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#ff79c6">script</span>
   <span style="color:#50fa7b">src</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;</span>
   <span style="color:#50fa7b">type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;text/javascript&#34;</span>
@@ -228,7 +228,12 @@
 &lt;<span style="color:#ff79c6">script</span> <span style="color:#50fa7b">type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;text/x-mathjax-config&#34;</span>&gt;
   MathJax.Hub.Config({ tex2jax<span style="color:#ff79c6">:</span> {inlineMath<span style="color:#ff79c6">:</span> [[<span style="color:#f1fa8c">&#39;$&#39;</span>,<span style="color:#f1fa8c">&#39;$&#39;</span>]]}  });
 &lt;/<span style="color:#ff79c6">script</span>&gt;
-</code></pre></div>
+</code></pre></div><p>and put following lines in any template that the target page used:</p>
+<pre><code>{{ if or .Params.math .Site.Params.math }}
+{{ partial &quot;math.html&quot; . }}
+{{ end }}
+</code></pre><p>and then put the parameter <code>math: true</code> on the target page to enable MathJax.</p>
+
 
                 
 

@@ -17,8 +17,9 @@
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mattwang44.github.io/2020/06/11/first-met-hugo/</guid>
-      <description>Shortcodes  Hugo native shortcodes Embed Google Presentation figure &amp;amp; gallery  Enable MathJax Add following lines into theme/&amp;lt;theme&amp;gt;/layout/partials/head.html or any template that the target page used:
-&amp;lt;script src=&amp;#34;//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;#34; type=&amp;#34;text/javascript&amp;#34; &amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script type=&amp;#34;text/x-mathjax-config&amp;#34;&amp;gt; MathJax.Hub.Config({ tex2jax: {inlineMath: [[&amp;#39;$&amp;#39;,&amp;#39;$&amp;#39;]]} }); &amp;lt;/script&amp;gt; </description>
+      <description>Shortcodes  Hugo native shortcodes Embed Google Presentation figure &amp;amp; gallery  Enable MathJax Add following lines into theme/&amp;lt;theme&amp;gt;/layout/partials/math.html
+&amp;lt;script src=&amp;#34;//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;#34; type=&amp;#34;text/javascript&amp;#34; &amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script type=&amp;#34;text/x-mathjax-config&amp;#34;&amp;gt; MathJax.Hub.Config({ tex2jax: {inlineMath: [[&amp;#39;$&amp;#39;,&amp;#39;$&amp;#39;]]} }); &amp;lt;/script&amp;gt; and put following lines in any template that the target page used:
+{{ if or .Params.math .Site.Params.math }} {{ partial &amp;quot;math.html&amp;quot; . }} {{ end }} and then put the parameter math: true on the target page to enable MathJax.</description>
     </item>
     
     <item>
