@@ -960,3 +960,16 @@ img[src$="#avatar"] {
   width: 300px;
   height: auto;
 }
+
+img[src$="#icon"] {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  width: 25px;
+  height: auto;
+}
+
+.emoji {
+  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji,
+    Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}

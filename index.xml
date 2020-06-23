@@ -6,10 +6,19 @@
     <description>Recent content on WHW blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mattwang44.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Preparation of GCP certificated associate cloud engineer [WIP]</title>
+      <link>https://mattwang44.github.io/2020/06/15/gcp-ace/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattwang44.github.io/2020/06/15/gcp-ace/</guid>
+      <description>Useful Links About ACE Certification  Exam Overview Official Exam Guide Google Cloud Training  Online Courses    Name Platform Price Mock Exam      Cloud Engineering with Google Cloud Professional Certificate Coursera $50/month N Recommended   Google Cloud Certified Associate Cloud Engineer LinuxAcademy $50 Y (50Q)    Ultimate Google Certified Associate Cloud Engineer 2020 GCP @Udemy ~$60 Y (70Q) Mostly on sale (&amp;lt;$15)   Google Certified Associate Cloud Engineer Certification A Cloud Guru @Udemy ~$230 Y (100Q) Mostly on sale (&amp;lt;$20)   Hand-on Labs@Qwiklabs Qwiklabs Charged by credit N Free credits are available from time to time    Practice Exams    Platform Price # of Questions      Official Practice Exam Free 25 Too easy but make sure to run through this   Whizlabs $20 150    BrainCert $30 250     People  Joseph Holbrook (The Cloud Tech Guy): medium, YouTube, Udemy  Repos  sathishvj/awesome-gcp-certifications ddneves/awesome-gcp-certifications (outdated)  Cheatsheets  Whizlabs Viniciuscoding/granja_Google_Associate_Cloud_Engineer WebLeash/gcp_associate_engineer TiagoGouvea/google-cloud-associate-cloud-engineer-preparation DRpandaMD/gcp-certified-associate-cloud-engineer-2020 Shekhar Sarker: Notes from my Google Cloud Certification Exam Charles.</description>
+    </item>
     
     <item>
       <title>Use Hugo for the first time</title>
