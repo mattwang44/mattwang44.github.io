@@ -968,8 +968,3 @@ img[src$="#icon"] {
   width: 25px;
   height: auto;
 }
-
-.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji,
-    Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
